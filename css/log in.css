@@ -1,0 +1,270 @@
+	.divmax {
+		width: 1200px;
+		/* border: 1px solid red; */
+		margin: 0px auto;
+	}
+
+	.div1:after {
+		width: 1200px;
+		height: 100px;
+		border: 1px solid red;
+		content: "";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+
+	}
+
+	.logo {
+		/* border: 1px solid red; */
+		float: left;
+		margin: 10px;
+	}
+
+	.right {
+		font-size: 12px;
+		float: right;
+		margin: 10px;
+		line-height: 20px;
+	}
+
+	.right a {
+		
+		text-decoration: none;
+	}
+
+	.right label {
+		margin: 0px 20px 0px 0px;
+	}
+
+	.right label a {
+		color: #0055ff;
+	}
+
+	.help {
+		float: right;
+		border: 1px solid #000;
+		line-height: 15px;
+		margin: 0px 10px 0px 10px;
+	}
+
+	.help img {
+		height: 10px;
+		margin: 5px 2px 1px 5px;
+	}
+
+	.div2 {
+
+		border-top: #000 1px solid;
+		width: 1200px;
+		height: 400px;
+		background: url("../img/oneShop/images/loadimg.jpg");
+		background-repeat: no-repeat;
+		background-position: 150px;
+		background-color: #fcfcfc;
+	}
+
+	.log-in {
+		/* border: 1px solid red; */
+		width: 300px;
+
+		float: right;
+		margin: 80px 100px;
+	}
+
+	.div2_left {
+		float: left;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	.div2_right {
+		float: right;
+		font-size: 10px;
+		color: #0055ff;
+		text-decoration: none;
+	}
+
+	.div2_1 {
+		width: 300px;
+		border: 1px solid #000;
+		float: left;
+		margin-top: 2px;
+		margin-bottom: 10px;
+	}
+
+	.div2_1 img {
+		/* border: 1px solid red; */
+		margin: 10px 10px 10px 20px;
+		float: left;
+	}
+
+	.div2_1 input {
+		width: 243px;
+		height: 42px;
+		float: left;
+		border-width: 0;
+		outline-color: red;
+		text-indent: 1em;
+	}
+
+	.div2_1 input:focus {
+		box-shadow: 0px 0px 12px 0px rgba(255, 85, 0, 0.6);
+	}
+
+	.div2_2 {
+		width: 300px;
+		border: 1px solid #000;
+		float: left;
+		margin-top: 2px;
+		margin-bottom: 10px;
+	}
+
+	.div2_2 img {
+		/* border: 1px solid red; */
+		margin: 10px 10px 8px 17px;
+		float: left;
+	}
+
+	.div2_2 input {
+		width: 240px;
+		height: 46px;
+		float: left;
+		border-width: 0;
+		outline-color: red;
+		text-indent: 1em;
+	}
+
+	.div2_2 input:focus {
+		box-shadow: 0px 0px 12px 0px rgba(255, 85, 0, 0.6);
+	}
+
+
+	.div3 {
+		/* border: 1px solid red; */
+		line-height: 15px;
+
+	}
+
+	.div3 label {
+		font-size: 10px;
+		opacity: 0.5;
+
+	}
+
+	.div3_1 {
+		float: right;
+	}
+
+	.register {
+		float: left;
+		height: 40px;
+		width: 300px;
+		color: #fff;
+		background-color: #ff0000;
+		line-height: 40px;
+		text-align: center;
+		/* font-weight: 600; */
+		font-size: 16px;
+		border: 1px solid #ff0000;
+		border-radius: 0px;
+		margin-top: 10px;
+	}
+
+	.div4 {
+		/* border: 1px solid #000; */
+		opacity: 0.5;
+		margin-top: 60px;
+		font-size: 10px;
+	}
+
+
+
+	.div5img_1 {
+		width: 28px;
+		height: 28px;
+		background: url("../img/oneShop/images/l_1.png");
+		background-repeat: no-repeat;
+		/* border: 1px solid red; */
+		margin: 3px;
+		float: left;
+	}
+
+	.div5img_2 {
+		width: 28px;
+		height: 28px;
+		background: url("../img/oneShop/images/l_2.png");
+		background-repeat: no-repeat;
+		/* border: 1px solid red; */
+		margin: 3px;
+		float: left;
+	}
+
+	.div5img_3 {
+		width: 28px;
+		height: 28px;
+		background: url("../img/oneShop/images/l_3.png");
+		background-repeat: no-repeat;
+		/* border: 1px solid red; */
+		margin: 3px;
+		float: left;
+	}
+
+	.div5img_4 {
+		width: 28px;
+		height: 28px;
+		background: url("../img/oneShop/images/l_4.png");
+		background-repeat: no-repeat;
+		/* border: 1px solid red; */
+		margin: 3px;
+		float: left;
+	}
+
+	.div5img_1:hover {
+		background: url("../img/oneShop/images/l_1_h.png");
+		background-repeat: no-repeat;
+	}
+
+	.div5img_2:hover {
+		background: url("../img/oneShop/images/l_2_h.png");
+		background-repeat: no-repeat;
+	}
+
+	.div5img_3:hover {
+		background: url("../img/oneShop/images/l_3_h.png");
+		background-repeat: no-repeat;
+	}
+
+	.div5img_4:hover {
+		background: url("../img/oneShop/images/l_4_h.png");
+		background-repeat: no-repeat;
+	}
+
+	.div5_1 {
+		font-size: 10px;
+		float: right;
+		margin: 10px;
+		opacity: 0.5;
+		line-height: 20px;
+	}
+
+	.div5_1 img {
+		width: 15px;
+		float: right;
+
+	}
+
+	.clearfix:after {
+		content: "";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+
+	.bottom {
+		font-size: 10px;
+		opacity: 0.7;
+		text-align: center;
+	}
